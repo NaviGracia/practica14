@@ -1,0 +1,15 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+span{
+    font-size: 50px;
+    color: black;
+    font-style: bold;
+}
