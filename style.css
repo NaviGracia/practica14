@@ -1,15 +1,68 @@
 body{
     font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(145, 255, 255, 0.363);
 }
 
 header{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: blue;
 }
 
-span{
-    font-size: 50px;
-    color: black;
+nav{
+    text-align: center;
+    font-size: 25px; 
+}
+
+a.menu{
+    text-decoration: none;
+}
+
+a.menu:hover{
+    color: red;
+    background-color: yellow;
+}
+
+a.apple:link{
+    background-color: white;
+}
+
+a.apple:visited{
+    background-color: blue;
+    color: white;
+}
+
+a.pixar{
+    background-color: white;
+    color: blue;
+}
+
+p{
+    font-size: 15px
+}
+
+p span{
+    font-size: 15px;
+    color: red;
     font-style: bold;
+}
+
+span.titulo{
+    font-size: 100px;
+    color: black;
+}
+
+span.menu{
+    position: relative;
+    left: 5px;
+}
+
+p.imagen{
+    text-align: right;
+}
+
+img{
+    position: relative;
+    float: right;
+    width: 390px;
 }
